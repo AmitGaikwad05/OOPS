@@ -1,0 +1,7 @@
+As ArrayList stores data in ordered manner and to access them we use index of integer values,
+in HashMaps, we can create index of our own and of different datatype. 
+
+Hashmap is a collection of key-value pair.
+Hash map can have : 
+1. key as string and value as number
+2. key as string and value as number

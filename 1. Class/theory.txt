@@ -1,0 +1,6 @@
+
+Class : 
+classes are block of code that contains :
+1. Attributes/data members (varaibles in the class are known as attributes/ data members)  
+2. Methods/member function(function declared in the classes are called as methods)
+

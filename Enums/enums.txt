@@ -1,0 +1,16 @@
+------------ Enums -------------
+Enums provide a way to define a set of named constants
+
+Enum is short for "enumerations", which means "specifically listed".
+
+To create an enum, use the enum keyword (instead of class or interface), and separate the constants with a comma. 
+
+NOTE :  The constants should be in uppercase letters:
+
+enums is a special class that holds constants (words to be used)
+
+enum is used when we have values that are not going to change like month days, days, colors, deck of cards, etc.
+
+enum constants are public, static and final (unchangeable - cannot be overridden)
+
+Enums are often used in switch statements to check for corresponding values

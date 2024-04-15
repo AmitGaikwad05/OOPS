@@ -1,0 +1,24 @@
+
+The LinkedList class is almost identical to the ArrayList
+
+The LinkedList class has all of the same methods as the ArrayList class
+
+How the ArrayList works
+The ArrayList class has a regular array inside it. When an element is added, it is placed into the array. If the array is not big enough, a new, larger array is created to replace the old one and the old one is removed.
+
+How the LinkedList works
+The LinkedList stores its items in "containers." The list has a link to the first container and each container has a link to the next container in the list. To add an element to the list, the element is placed into a new container and that container is linked to one of the other containers in the list.
+-----------------------------------------------------------------
+IMP : WHEN TO USE WHICH
+
+Use ArrayList when:
+* Fast and random access of any element
+* When size of the list in known or stable and dont change frequently
+* When we need to add or remove elements at and from  the end respectively
+* Takes less memory 
+
+Use LinkedList when:
+* Need frequent addition/removal of elements from the list
+* Need to add or remove the elements at the start/middle/end of the list
+* Takes more memory 
+

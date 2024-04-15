@@ -1,0 +1,17 @@
+
+
+ArrayList:
+
+Use cases:
+When you need fast random access to elements by index.
+When the list size is known or relatively stable, as ArrayList is more efficient in terms of memory.
+When you primarily need to add or remove elements at the end of the list.
+
+LinkedList:
+
+Use cases:
+When you need to frequently add or remove elements from the beginning, middle, or end of the list.
+When you don't require random access to elements by index frequently.
+When you need to perform frequent insertion and deletion operations.
+
+Use ArrayList when you need fast random access and know the size of the list in advance. Use LinkedList when you require frequent insertions and deletions, especially at arbitrary positions within the list.

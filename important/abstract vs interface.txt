@@ -1,0 +1,13 @@
+ Both abstract classes and interfaces are used to define contracts for classes. They serve similar purposes but have some differences in their usage:
+
+Abstract class :
+ 1. Abstract class cannot  be instantiated (meaning, we cannot create the object of the abstract class directly, for that we have to inherit that class). 
+ 2. It can contain both concrete methods(normal methods) & abstract methods(method without implementation/body)
+ 3. Use of abstract class : can be use when we want to have a common method implementation and also an abstract method to used as per the sub class demand
+ 4. Use abstract classes when you want to provide a common base class for multiple related classes.
+
+ Interface :
+ 1. As abstract class can contain both non implemented method and implemented methods, interface contains only non-implemented methods.
+ 2. All methods in an interface are implicitly public and abstract (IMP)
+ 3. Since Java 8, interfaces can have default and static methods with implementations.
+ 4. Use interface when you want to set methods that are common and manditory to implemented class. then define those methods in their respective class.

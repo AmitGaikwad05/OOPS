@@ -1,0 +1,115 @@
+
+ ----------------- Difference between ArrayList, LinkedList, HashMap, HashSet -----------------
+
+All of the below are classes from the Standard java libraries included in the util package. can be imported as follows : 
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.HashMap;
+import java.util.HashSet;
+
+ ArrayList : 
+ ----------------------------------------------------------------
+ 1. To Store multiple values together
+ 2. Can be accesed using index values (integers)
+ 3. Can add values only at the end of the list.
+ 4. Use when the size of the array is known or stable
+5. Come methods are :
+
+obj.add()  : to add elements to the list
+obj.get(index value)  : to access elements from the list
+obj.set(index value)  : to update the existing value of the list
+obj.remove(index  value)  : to remove element  from the particular index position
+obj.clear() : to remove all elements from the list
+obj.size() : to get the size (no.of elements)  in the list
+
+Syntax : 
+ArrayList<datatype> obj = new ArrayList<>();    // here datatype of the elements we'll store in the list
+
+LinkedList :
+ ----------------------------------------------------------------
+
+1. To store multiple values together just like ArrayList
+2. Can be accesed using index values (integers)
+3. Have same methods as ArrayList
+4. Can add values at any position (front, end, middle) of the list
+5. Use when to size of the list is not stable and elements are required to add and remove frequently
+6. Some methods are : 
+
+obj.add()  : to add elements to the list
+obj.addFirst() : to add element to the starting position
+obj.addLast() : to add element to the last position 
+
+obj.get(index value)  : to access elements from the list
+obj.getFirst( )  : to access first element from the list
+obj.getLast( )  : to access last element from the list
+
+obj.set(index value)  : to update the existing value of the list
+
+obj.remove(index  value)  : to remove element  from the particular index position
+obj.removeFirst() : to remove first element of the list
+obj.removeLast() : to remove last element of the list
+
+obj.clear() : to remove all elements from the list
+obj.size() : to get the size (no.of elements)  in the list
+
+Syntax : 
+LinkedList<datatype> obj = new LinkedList<>();    // datatype of the elements we'll add in the List
+ 
+
+HashSet : 
+ ----------------------------------------------------------------
+
+1.  To store elements without any duplicate entries, it only stores unique elements.
+2. We may include duplicate values but the HashSet will store only unique values
+3. Almost similar to LinkedList but can only have  unique elements
+4. some methods are : 
+
+obj.add("element") : to add elements to the HashSet
+obj.remove("Element")  : to remove perticular element
+obj.clear()  : to remove all elements
+obj.size()  : to check the size of the HashSet
+obj.contains("Element")   : check whether a given element present or not in the set (returns true or false)
+
+
+HashMap : 
+ ----------------------------------------------------------------
+ 
+ 1. To store multiple values with key value pair format
+ 2. Here the key acts as the index for the list
+ 3. Some methods are : 
+
+obj.put("Key", "value")  : to add key value to the HashMap (NOTE: USE INVERTED COMMA ONLY IF THE DATA IS STRING)
+obj.get("Key")   : to get the value of the key referred
+obj.remove("key")  : to remove the key value pair of the referred key from HashMap
+obj.clear()  " to remove all the key-value pairs from the HashMap
+obj.size() : to get the size (no.of key-value pairs) in the HashMap
+
+obj.KeySet(); use this method in for each loop to get  all the keys present in the HashMap
+obj.values() : use this method for getting all the values in the HashMap
+
+----- To print Keys using for each: ------ 
+syntax : 
+for(String  s: obj.KeySet()) {
+sout (s + " ");
+}
+
+----- To print values using for each: ------
+
+for(String  s: obj.values( )) {
+sout (s + " ");
+}
+
+To print both : 
+for(String s : obj.KeySet()){
+
+sout(s + " : " + obj.get(s));   here get(s) will give the values  corresponding to that particular Key.
+
+}
+
+
+HashMap syntax : 
+
+HashMap <datatype1 , datatype2> obj = new HashMap<>();      here, datatype1 : datatype of key ; datatype2 : datatype of value
+
+

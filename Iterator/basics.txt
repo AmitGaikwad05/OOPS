@@ -1,0 +1,7 @@
+
+
+------------------ Java Iterator ----------------
+Iterator is used to loop through the elements of object of ArrayList, HashSet etc.
+
+Why use Iterator if we can use simple for or for each loop ? 
+= suppose if we want to remove the element from the ArrayList or HashSet on certain conditions, if we use for loop it will change the size of the array that may stop or reduce the iteration via loop. This does not occurs in Java iterator.

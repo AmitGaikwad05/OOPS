@@ -1,0 +1,4 @@
+
+HashSet : Same as LinkedList. only Difference is HashSet will not store duplicate values
+
+NOTE : in HashSet, elements cannot be added in between the list. i.e we cannot add elements at any index position in java.

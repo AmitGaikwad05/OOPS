@@ -1,0 +1,21 @@
+----------------- Array list -------------------
+
+Array list is a class in the java.util package
+Unlike normal arrays, ArrayList size can be changed  dynamically  without declaring its size while creating an object 
+
+
+-------------- Syntax of ArrayList ------------------
+
+ArrayList<datatype> obj_name = new ArrayList<datatype> ();    
+
+Here, an object of ArrayList class is created.
+
+
+------------------ Methods in ArrayList ------------------------
+add() : to add elements to the ArrayList
+get() : to access the element in the ArrayList
+set() : to modify the element in the ArrayList
+remove() : to delete an element from ArrayList (array size changes)
+clear() : to remove all elements in the array
+.size() : to know the size of the array (number of elements of arraylist)
+

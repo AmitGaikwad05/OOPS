@@ -1,0 +1,35 @@
+Modifiers are of two types :
+
+1. Access Modifiers
+2. Non-access modifiers
+----------------------------------------------------------------
+
+
+Total access modifiers :
+1. public 
+2. private
+3. protected
+4. default (no modifier)
+
+For class : can either use public or default(no modifier)
+For attributes, methods and constructors : can use all 4
+
+1. public : class / members (attributes and functions) with public modifier can be accessed  from anywhere within or between the packages
+2. default : class / modifier/ member with default (no modifer)  is accessible within the package in which it was declared
+3. private : members declared with the private modifier can be accessed only within the the class they are declared. 
+                  (to access the private members, create public methods and use them to access the private members)
+4. protected : members declared with protected modifiers can only be accessed within the same class and in the class that are derieved from the 
+
+----------------------------------------------------------------
+Total non-access modifiers : 
+1. final
+2. static
+3. abstract
+4. transient
+5. synchronized
+6. volatile
+
+For class : you can either use final or abstract
+For attributes & methods : can use all 6
+
+
